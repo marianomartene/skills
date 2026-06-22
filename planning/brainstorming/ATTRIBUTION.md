@@ -9,13 +9,13 @@ This skill is a fork of an upstream open-source skill, vendored into
 
 ## Notes
 
-- The skill's terminal step invokes a `writing-plans` skill, which is **not**
-  part of this collection. Brainstorming still runs through design + approval;
-  the final "create the implementation plan" handoff has no target here unless
-  you also install `writing-plans` from upstream.
+- **Local modification:** the upstream `description` ("You MUST use this before
+  any creative work…") was narrowed to trigger on explicit brainstorm/design
+  intent only, so it no longer auto-fires on every edit or bug fix. This is the
+  only change from upstream; the skill body is unchanged.
+- The terminal step invokes the [[writing-plans]] skill, which **is** installed
+  alongside this one (`planning/writing-plans`), so the design → plan chain is
+  complete.
 - The optional Visual Companion (`scripts/`, `visual-companion.md`) starts a
   local browser server for mockups/diagrams; it is offered just-in-time, never
   upfront.
-- The `description` is intentionally aggressive ("You MUST use this before any
-  creative work"), so it may auto-trigger ahead of implementation work. Kept
-  faithful to upstream — narrow it if it fires too eagerly.

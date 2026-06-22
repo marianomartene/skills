@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
+description: "Collaboratively turn a vague idea into a fully-formed design and spec before implementation. Use when the user explicitly wants to brainstorm, scope a new feature or project, or design before building — e.g. 'brainstorm', 'help me design', 'think this through', 'spec this out', 'how should I approach'. Skip for small, well-specified edits, bug fixes, or mechanical changes."
 ---
 
 # Brainstorming Ideas Into Designs

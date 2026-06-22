@@ -57,13 +57,14 @@ Or copy individual folders into `~/.claude/skills/`.
 
 | Skill | Description |
 |-------|-------------|
-| [brainstorming](planning/brainstorming/) | Turn ideas into designs/specs through collaborative dialogue before any implementation; optional browser visual companion. ↗ fork |
+| [brainstorming](planning/brainstorming/) | Collaboratively turn an idea into a design/spec before implementation; chains to `writing-plans`; optional browser visual companion. ↗ fork |
 | [grill-me](planning/grill-me/) | Relentless interview to stress-test a plan or design — resolves every branch of the decision tree |
 | [grill-with-docs](planning/grill-with-docs/) | Same as grill-me but grounded in attached documentation or specs |
 | [handoff](planning/handoff/) | Compact the current conversation into a handoff document for another agent to pick up |
 | [humanizer](planning/humanizer/) | Remove signs of AI-generated writing from text |
 | [to-issues](planning/to-issues/) | Break a plan or PRD into independently-grabbable Linear issues using tracer-bullet vertical slices |
 | [to-prd](planning/to-prd/) | Turn conversation context into a PRD and publish it to the issue tracker |
+| [writing-plans](planning/writing-plans/) | Turn a spec into a bite-sized, TDD implementation plan with exact files, code, and commands; terminal step of the brainstorming chain. ↗ fork |
 
 ### Meta
 
@@ -98,6 +99,7 @@ Skills marked **↗ fork** are vendored from upstream open-source repos, kept fa
 | agent-browser | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Vercel | Apache-2.0 |
 | web-design-guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Vercel | MIT |
 | brainstorming | [obra/superpowers](https://github.com/obra/superpowers) | Jesse Vincent | MIT |
+| writing-plans | [obra/superpowers](https://github.com/obra/superpowers) | Jesse Vincent | MIT |
 
 ---
 
