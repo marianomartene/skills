@@ -46,15 +46,18 @@ Or copy individual folders into `~/.claude/skills/`.
 
 | Skill | Description |
 |-------|-------------|
+| [agent-browser](dev/agent-browser/) | Browser automation CLI for AI agents — navigate, fill forms, screenshot, scrape, test web apps (needs the `agent-browser` CLI). ↗ fork |
 | [diagnose](dev/diagnose/) | Disciplined diagnosis loop for hard bugs — reproduce, minimise, hypothesise, instrument, fix, regression-test |
 | [frontend-design](dev/frontend-design/) | Create distinctive, production-grade frontend interfaces with high design quality |
 | [improve-codebase-architecture](dev/improve-codebase-architecture/) | Architecture review and improvement for existing codebases |
 | [prototype](dev/prototype/) | Rapidly prototype logic and features with minimal scaffolding |
+| [web-design-guidelines](dev/web-design-guidelines/) | Review UI code against the live Web Interface Guidelines (accessibility, UX, best practices). ↗ fork |
 
 ### Planning / Writing
 
 | Skill | Description |
 |-------|-------------|
+| [brainstorming](planning/brainstorming/) | Turn ideas into designs/specs through collaborative dialogue before any implementation; optional browser visual companion. ↗ fork |
 | [grill-me](planning/grill-me/) | Relentless interview to stress-test a plan or design — resolves every branch of the decision tree |
 | [grill-with-docs](planning/grill-with-docs/) | Same as grill-me but grounded in attached documentation or specs |
 | [handoff](planning/handoff/) | Compact the current conversation into a handoff document for another agent to pick up |
@@ -83,6 +86,18 @@ Skills activate automatically when you invoke them by name in Claude Code:
 ```
 
 Or reference them naturally in your prompt — Claude Code routes to the matching skill.
+
+---
+
+## Forked skills
+
+Skills marked **↗ fork** are vendored from upstream open-source repos, kept faithful to the original. Each carries its own `LICENSE` and an `ATTRIBUTION.md` with source and author.
+
+| Skill | Upstream | Author | License |
+|-------|----------|--------|---------|
+| agent-browser | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | Vercel | Apache-2.0 |
+| web-design-guidelines | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Vercel | MIT |
+| brainstorming | [obra/superpowers](https://github.com/obra/superpowers) | Jesse Vincent | MIT |
 
 ---
 
