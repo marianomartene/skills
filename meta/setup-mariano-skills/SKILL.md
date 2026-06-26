@@ -1,3 +1,14 @@
+---
+name: setup-mariano-skills
+description: >-
+  Scaffold the per-project agent configuration that Mariano's GTM and engineering
+  skills expect: the `## Agent skills` block in CLAUDE.md plus the docs/agents/
+  files (issue-tracker, triage-labels, domain, pipeline, orchestrator). Use when
+  setting up a new project or client workspace for these skills, when CLAUDE.md is
+  missing its agent-skills section, or when asked to "set up Mariano's skills" or
+  "configure this project for the agents".
+---
+
 # Setup Mariano's Skills
 
 Scaffold the per-project configuration that the engineering and GTM skills assume.
