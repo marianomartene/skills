@@ -1,5 +1,5 @@
 ---
-name: expert-panel
+name: content-ops
 description: >-
   Score, evaluate, and iteratively improve any content or strategy using an
   auto-assembled panel of domain experts. Handles copy, sequences, landing pages,
