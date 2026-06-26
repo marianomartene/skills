@@ -1,5 +1,26 @@
 # Expert Panel: AI Writing Detector (Humanizer)
 
+> **Use Mariano's own versions — they supersede the inline rubric below.**
+> We maintain a fuller humanizer (33 patterns, not the 24 listed here) and a personal
+> voice guide. Load both before scoring; treat them as the source of truth.
+>
+> - **Humanizer rubric (33 patterns, canonical):** `~/.claude/skills/humanizer/SKILL.md`
+> - **Brand voice (what "human" means for Mariano):** `/Users/mm/Documents/ai-projects/voice-guide.md`
+>
+> Score primarily against the 33-pattern humanizer skill. Then apply the voice-guide red
+> lines below on top. The 24-pattern list further down is a labeled fallback only — kept for
+> reference, not the primary rubric.
+>
+> ### Voice-guide red lines (instant docks, from voice-guide.md)
+> - Ego, brag, humble-brag, or inflated/fake results (-10)
+> - Vague claim with no number, example, or story behind it (-8)
+> - Engagement bait ("Agree? 👇", "Comment X below", manufactured controversy) (-8)
+> - Manufactured aphorism / clever closer bolted on for effect (the "wry landing line" must be a
+>   true observation, never decoration) (-8)
+> - Any em dash (—) or en dash (–) in the final draft (-5 each — hard constraint, humanizer §14)
+> - "Thought leader" posturing, hustle-culture clichés, buzzword soup (-8)
+> - **Overall: if any line "sounds like bullshit," it's not him — dock hard (-15).** North star.
+
 ## Context
 - Based on the 24 AI writing patterns from Wikipedia's "Signs of AI writing" guide
 - This expert scores drafts on how AI-generated they sound
